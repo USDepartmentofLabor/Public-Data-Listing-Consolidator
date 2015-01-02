@@ -136,7 +136,7 @@ class ViewController: NSViewController {
             
             let dolDataJSONText = NSJSONSerialization.dataWithJSONObject(dolDataJSON, options: nil, error: nil)
             
-            var dolDataJSONPath = rootPath?.stringByAppendingPathComponent("test.json")
+            var dolDataJSONPath = rootPath?.stringByAppendingPathComponent("data.json")
             
             dolDataJSONText?.writeToFile(dolDataJSONPath!, options: nil, error: nil)
 
