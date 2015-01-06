@@ -134,7 +134,7 @@ class ViewController: NSViewController {
             dolDataJSON["describedBy"] = dolJSON["describedBy"]
             dolDataJSON["dataset"] = dolDataSetsN
             
-            let dolDataJSONText = NSJSONSerialization.dataWithJSONObject(dolDataJSON, options: nil, error: nil)
+            let dolDataJSONText = NSJSONSerialization.dataWithJSONObject(dolDataJSON, options: .PrettyPrinted, error: nil)
             
             var dolDataJSONPath = rootPath?.stringByAppendingPathComponent("data.json")
             
