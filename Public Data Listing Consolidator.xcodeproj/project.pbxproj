@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D38C8701A66AE5400E6B85A /* pdl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38C86F1A66AE5400E6B85A /* pdl.swift */; };
 		3D4369051A56D96000B7FDB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4369041A56D96000B7FDB6 /* AppDelegate.swift */; };
 		3D4369071A56D96000B7FDB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4369061A56D96000B7FDB6 /* ViewController.swift */; };
 		3D4369091A56D96000B7FDB6 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4369081A56D96000B7FDB6 /* Document.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D38C86F1A66AE5400E6B85A /* pdl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pdl.swift; sourceTree = "<group>"; };
 		3D4368FF1A56D96000B7FDB6 /* Public Data Listing Consolidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Public Data Listing Consolidator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4369031A56D96000B7FDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4369041A56D96000B7FDB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D38C86E1A66AE1E00E6B85A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D38C86F1A66AE5400E6B85A /* pdl.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		3D4368F61A56D96000B7FDB6 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		3D4369011A56D96000B7FDB6 /* Public Data Listing Consolidator */ = {
 			isa = PBXGroup;
 			children = (
+				3D38C86E1A66AE1E00E6B85A /* Model */,
 				3D4369041A56D96000B7FDB6 /* AppDelegate.swift */,
 				3D4369061A56D96000B7FDB6 /* ViewController.swift */,
 				3D4369081A56D96000B7FDB6 /* Document.swift */,
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D38C8701A66AE5400E6B85A /* pdl.swift in Sources */,
 				3D4369071A56D96000B7FDB6 /* ViewController.swift in Sources */,
 				3D4369051A56D96000B7FDB6 /* AppDelegate.swift in Sources */,
 				3D4369091A56D96000B7FDB6 /* Document.swift in Sources */,
@@ -402,6 +414,7 @@
 				3D43691F1A56D96000B7FDB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D4369201A56D96000B7FDB6 /* Build configuration list for PBXNativeTarget "Public Data Listing ConsolidatorTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +423,7 @@
 				3D4369221A56D96000B7FDB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
