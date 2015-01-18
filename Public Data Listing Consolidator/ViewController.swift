@@ -8,10 +8,10 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ViewController: NSSplitViewController, NSSplitViewDelegate {
 
    
-    @IBOutlet var jsonDisplay: NSTextView?
+    @IBOutlet weak var pdlSplitView: NSSplitView!
     
     let publicDataListings : PDL = PDL()
 
@@ -20,47 +20,12 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-
+        self.pdlSplitView.delegate = self
         
-            NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateJSONTextWindow", name: "dataJSONUpdated", object: nil)
- 
-            NSLog("old way")
-        
-            /*
-            var d1 = ["a": "b"]
-            var d2 = ["c": "e"]
-            
-            d1.merge(d2)
-            
-            NSLog("%@", d1)
-            */
-            
-            //benefitsGovJSON.merge(blsJSON)
-
         }
-    
-    func updateJSONTextWindow () {
-        jsonDisplay?.insertText(publicDataListings.dataListingAsText())
-        
+
+    override func splitView(splitView: NSSplitView, constrainMinCoordinate proposedMinimumPosition: CGFloat, ofSubviewAt dividerIndex: Int) -> CGFloat {
+        return proposedMinimumPosition + 200
     }
+
 }
-    
-
-     var representedObject: AnyObject? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
-    
-
-
-
-extension Dictionary {
-    mutating func merge<K, V>(dict: [K: V]){
-        for (k, v) in dict {
-            self.updateValue(v as Value, forKey: k as Key)
-        }
-    }
-}
-
