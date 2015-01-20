@@ -706,10 +706,10 @@
             </objects>
             <point key="canvasLocation" x="-285.5" y="985"/>
         </scene>
-        <!--View Controller-->
+        <!--Split View Controller-->
         <scene sceneID="AtP-ky-HvN">
             <objects>
-                <splitViewController id="XNJ-c6-0kO" customClass="ViewController" customModule="Public_Data_Listing_Consolidator" customModuleProvider="target" sceneMemberID="viewController">
+                <splitViewController id="XNJ-c6-0kO" sceneMemberID="viewController">
                     <splitViewItems>
                         <splitViewItem id="GCF-PZ-6Sq"/>
                         <splitViewItem id="piR-Wj-Kja"/>
@@ -731,8 +731,8 @@
         <!--Sidebar View-->
         <scene sceneID="qMR-6S-y1P">
             <objects>
-                <viewController title="Sidebar View" id="NdB-4R-Ank" customClass="SidebarViewController" customModule="Public_Data_Listing_Consolidator" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="nIo-BL-tNS">
+                <viewController title="Sidebar View" id="NdB-4R-Ank" sceneMemberID="viewController">
+                    <view key="view" id="nIo-BL-tNS" customClass="SidebarView" customModule="Public_Data_Listing_Consolidator" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
@@ -762,8 +762,8 @@
         <!--Dataset View-->
         <scene sceneID="ISL-df-MZ2">
             <objects>
-                <viewController title="Dataset View" id="stm-qn-Frv" customClass="DatasetViewController" customModule="Public_Data_Listing_Consolidator" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" alphaValue="0.99999999999999989" id="dK2-6O-tUU">
+                <viewController title="Dataset View" id="stm-qn-Frv" sceneMemberID="viewController">
+                    <view key="view" alphaValue="0.99999999999999989" id="dK2-6O-tUU" customClass="DatasetView" customModule="Public_Data_Listing_Consolidator" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="219" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>

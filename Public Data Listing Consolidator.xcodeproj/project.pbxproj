@@ -14,6 +14,8 @@
 		3D43690B1A56D96000B7FDB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D43690A1A56D96000B7FDB6 /* Images.xcassets */; };
 		3D43690E1A56D96000B7FDB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D43690C1A56D96000B7FDB6 /* Main.storyboard */; };
 		3D43691A1A56D96000B7FDB6 /* Public_Data_Listing_ConsolidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4369191A56D96000B7FDB6 /* Public_Data_Listing_ConsolidatorTests.swift */; };
+		3D5EA5A91A6C678700DBC727 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EA5A81A6C678700DBC727 /* SidebarView.swift */; };
+		3D5EA5AB1A6C680700DBC727 /* DatasetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EA5AA1A6C680700DBC727 /* DatasetView.swift */; };
 		3D5EEC5D1A6AC49A004F07A6 /* DatasetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EEC5C1A6AC49A004F07A6 /* DatasetViewController.swift */; };
 		3D9E6FD81A69B0E30000C08B /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E6FD71A69B0E30000C08B /* SidebarViewController.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,8 @@
 		3D4369131A56D96000B7FDB6 /* Public Data Listing ConsolidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Public Data Listing ConsolidatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4369181A56D96000B7FDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4369191A56D96000B7FDB6 /* Public_Data_Listing_ConsolidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Public_Data_Listing_ConsolidatorTests.swift; sourceTree = "<group>"; };
+		3D5EA5A81A6C678700DBC727 /* SidebarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		3D5EA5AA1A6C680700DBC727 /* DatasetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatasetView.swift; sourceTree = "<group>"; };
 		3D5EEC5C1A6AC49A004F07A6 /* DatasetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatasetViewController.swift; path = ../DatasetViewController.swift; sourceTree = "<group>"; };
 		3D9E6FD71A69B0E30000C08B /* SidebarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +101,8 @@
 				3D4369081A56D96000B7FDB6 /* Document.swift */,
 				3D43690A1A56D96000B7FDB6 /* Images.xcassets */,
 				3D43690C1A56D96000B7FDB6 /* Main.storyboard */,
+				3D5EA5AA1A6C680700DBC727 /* DatasetView.swift */,
+				3D5EA5A81A6C678700DBC727 /* SidebarView.swift */,
 				3D9E6FD71A69B0E30000C08B /* SidebarViewController.swift */,
 				3D5EEC5C1A6AC49A004F07A6 /* DatasetViewController.swift */,
 				3D4369021A56D96000B7FDB6 /* Supporting Files */,
@@ -231,8 +237,10 @@
 			files = (
 				3D9E6FD81A69B0E30000C08B /* SidebarViewController.swift in Sources */,
 				3D38C8701A66AE5400E6B85A /* pdl.swift in Sources */,
+				3D5EA5A91A6C678700DBC727 /* SidebarView.swift in Sources */,
 				3D4369071A56D96000B7FDB6 /* ViewController.swift in Sources */,
 				3D4369051A56D96000B7FDB6 /* AppDelegate.swift in Sources */,
+				3D5EA5AB1A6C680700DBC727 /* DatasetView.swift in Sources */,
 				3D4369091A56D96000B7FDB6 /* Document.swift in Sources */,
 				3D5EEC5D1A6AC49A004F07A6 /* DatasetViewController.swift in Sources */,
 			);
